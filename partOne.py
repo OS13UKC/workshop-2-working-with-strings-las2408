@@ -3,6 +3,7 @@ def main():
     myFunction(slow)
 
 def myFunction(text):
-  #Your code goes here.
+    NewText = text.replace (" ","...")    # .replace replaces the first part before the comma with anything placed after 
+    print NewText                        # prints the new version of the text
 
 main()
